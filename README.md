@@ -1,24 +1,70 @@
-# README
+## groups_usersテーブル
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+| Column | Type       | Options                        |
+| ------ | ---------- | ------------------------------ |
+| email   | string | null: false |
+| password  | string | null: false |
+| passwordconfirm  | string | null: false |
+| firstname   | string | null: false |
+| lastname   | string | null: false |
+| firstnamekana   | string | null: false |
+| lastnamekana   | string | null: false |
+| birthday   | datetime | null: false |
 
-Things you may want to cover:
+### Association
+- has_many :items
+- has_many :purchase_records
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+## itemsテーブル
 
-* Database creation
+| Column | Type       | Options                        |
+| ------ | ---------- | ------------------------------ |
+| itemname   | string | null: false |
+| detail  | text | null: false |
+| category   | string | null: false |
+| status   | string | null: false |
+| burden of shipping charges   | string | null: false |
+| shipping area  | string | null: false |
+| days to ship   | datetime | null: false |
+| price   | integer | null: false |
+| user   | reference |  |
 
-* Database initialization
 
-* How to run the test suite
+### Association
+- belongs_to :users
+- has_one :purchase_records
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+## purchase_recordsテーブル
+
+| Column | Type       | Options                        |
+| ------ | ---------- | ------------------------------ |
+| card number   | string | null: false |
+| expiration date  | datetime | null: false |
+| Security code   | string | null: false |
+| item   | reference |  |
+
+
+### Association
+- belongs_to :items
+- has_one :shipping_addresses
+
+
+
+## shipping_addressesテーブル
+
+| Column | Type       | Options                        |
+| ------ | ---------- | ------------------------------ |
+| Postal code   | string | null: false |
+| Prefectures  | string | null: false |
+| Municipality   | string | null: false |
+| address   | string | null: false |
+| Building name  | string | null: false |
+| phone number   | string | null: false |
+| purchase_record   | reference |  |
+
+### Association
+- belongs_to :purchase_records
