@@ -2,7 +2,7 @@
 
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
-| email   | string | null: false |
+| email   | string | null: false unique: true |
 | encrypted_password  | string | null: false |
 | first_name   | string | null: false |
 | last_name   | string | null: false |
@@ -20,7 +20,7 @@
 
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
-| item_name   | string | null: false |
+| name   | string | null: false |
 | detail  | text | null: false |
 | category_id   | integer | null: false |
 | status_id   | integer | null: false |
@@ -28,7 +28,7 @@
 | shipping_area_id  | integer | null: false |
 | days_to_ship_id   | integer | null: false |
 | price   | integer | null: false |
-| user   | reference |  |
+| user   | reference | foreign_key: true |
 
 
 ### Association
@@ -41,8 +41,8 @@
 
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
-| item   | reference |  |
-| user   | reference |  |
+| item   | reference | foreign_key: true |
+| user   | reference | foreign_key: true |
 
 
 ### Association
@@ -56,13 +56,13 @@
 
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
-| Postal_code   | string | null: false |
+| postal_code   | string | null: false |
 | shipping_area_id  | integer | null: false |
-| Municipality   | string | null: false |
+| municipality   | string | null: false |
 | address   | string | null: false |
-| Building_name  | string |  |
+| building_name  | string |  |
 | phone_number   | string | null: false |
-| purchase_record   | reference |  |
+| purchase_record   | reference | foreign_key: true |
 
 ### Association
 - belongs_to :purchase_record
