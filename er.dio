@@ -1,34 +1,37 @@
 <mxfile host="65bd71144e">
     <diagram id="HUGXoQ8isnVOg2FBGazs" name="ページ1">
-        <mxGraphModel dx="733" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="992" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="119RQgGnVpth44yNPDYI-1" value="users" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontColor=#F5F5F5;" parent="1" vertex="1">
-                    <mxGeometry x="20" y="50" width="160" height="170" as="geometry">
+                    <mxGeometry x="20" y="50" width="160" height="190" as="geometry">
                         <mxRectangle x="20" y="50" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;email&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
+                <mxCell id="61" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;quot;helvetica neue&amp;quot;&quot;&gt;&lt;span style=&quot;font-family: arial, sans-serif; font-size: 14px; text-align: left;&quot;&gt;nickname&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
                     <mxGeometry y="30" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;encrypted_password&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
+                <mxCell id="4" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;email&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
                     <mxGeometry y="50" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;first_name&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
+                <mxCell id="5" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;encrypted_password&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
                     <mxGeometry y="70" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;last_name&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
+                <mxCell id="7" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;first_name&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
                     <mxGeometry y="90" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;first_name_kana&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
+                <mxCell id="12" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;last_name&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
                     <mxGeometry y="110" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;last_name_kana&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
+                <mxCell id="13" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;first_name_kana&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
                     <mxGeometry y="130" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;birthday&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
+                <mxCell id="14" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;last_name_kana&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
                     <mxGeometry y="150" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;birthday&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-1">
+                    <mxGeometry y="170" width="160" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F0F0F0;" edge="1" parent="1" source="119RQgGnVpth44yNPDYI-13" target="52">
                     <mxGeometry relative="1" as="geometry"/>
