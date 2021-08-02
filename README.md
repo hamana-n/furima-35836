@@ -31,7 +31,6 @@
 | price   | integer | null: false |
 | user   | reference | foreign_key: true |
 
-
 ### Association
 - belongs_to :user
 - has_one :purchase_record
@@ -44,7 +43,6 @@
 | ------ | ---------- | ------------------------------ |
 | item   | reference | foreign_key: true |
 | user   | reference | foreign_key: true |
-
 
 ### Association
 - belongs_to :item
