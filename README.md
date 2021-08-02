@@ -3,13 +3,12 @@
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
 | email   | string | null: false |
-| password  | string | null: false |
-| passwordconfirm  | string | null: false |
-| firstname   | string | null: false |
-| lastname   | string | null: false |
-| firstnamekana   | string | null: false |
-| lastnamekana   | string | null: false |
-| birthday   | datetime | null: false |
+| encrypted_password  | string | null: false |
+| first_name   | string | null: false |
+| last_name   | string | null: false |
+| first_name_kana   | string | null: false |
+| last_name_kana   | string | null: false |
+| birthday   | date | null: false |
 
 ### Association
 - has_many :items
@@ -21,20 +20,20 @@
 
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
-| itemname   | string | null: false |
+| item_name   | string | null: false |
 | detail  | text | null: false |
-| category   | string | null: false |
-| status   | string | null: false |
-| burden of shipping charges   | string | null: false |
-| shipping area  | string | null: false |
-| days to ship   | datetime | null: false |
+| category_id   | integer | null: false |
+| status_id   | integer | null: false |
+| burden_of_shipping_charge_id   | integer | null: false |
+| shipping_area_id  | integer | null: false |
+| days_to_ship_id   | integer | null: false |
 | price   | integer | null: false |
 | user   | reference |  |
 
 
 ### Association
-- belongs_to :users
-- has_one :purchase_records
+- belongs_to :user
+- has_one :purchase_record
 
 
 
@@ -42,15 +41,14 @@
 
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
-| card number   | string | null: false |
-| expiration date  | datetime | null: false |
-| Security code   | string | null: false |
 | item   | reference |  |
+| user   | reference |  |
 
 
 ### Association
-- belongs_to :items
-- has_one :shipping_addresses
+- belongs_to :item
+- belongs_to :user
+- has_one :shipping_address
 
 
 
@@ -58,13 +56,13 @@
 
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
-| Postal code   | string | null: false |
-| Prefectures  | string | null: false |
+| Postal_code   | string | null: false |
+| shipping_area_id  | integer | null: false |
 | Municipality   | string | null: false |
 | address   | string | null: false |
-| Building name  | string | null: false |
-| phone number   | string | null: false |
+| Building_name  | string |  |
+| phone_number   | string | null: false |
 | purchase_record   | reference |  |
 
 ### Association
-- belongs_to :purchase_records
+- belongs_to :purchase_record
