@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="HUGXoQ8isnVOg2FBGazs" name="ページ1">
-        <mxGraphModel dx="992" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="733" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -48,7 +48,7 @@
                 <mxCell id="32" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;address&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-13">
                     <mxGeometry y="90" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;Building_name&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-13">
+                <mxCell id="33" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;building_name&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-13">
                     <mxGeometry y="110" width="160" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;phone_number&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="119RQgGnVpth44yNPDYI-13">
@@ -60,7 +60,7 @@
                 <mxCell id="42" value="items" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
                     <mxGeometry x="460" y="40" width="185" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;item_name&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="42">
+                <mxCell id="43" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;name&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="42">
                     <mxGeometry y="30" width="185" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;detail&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#F0F0F0;" vertex="1" parent="42">
