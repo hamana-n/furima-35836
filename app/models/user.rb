@@ -18,6 +18,8 @@ class User < ApplicationRecord
   validates :last_name, presence: true, format: { with: /\A[ぁ-んァ-ヶ一-龥々ー]+\z/ }
   validates :password, format: { with: /\A(?=.*?[a-z])(?=.*?[\d])[a-z\d]+\z/i.freeze }
 
+  has_many :items
+
 end
 
 
