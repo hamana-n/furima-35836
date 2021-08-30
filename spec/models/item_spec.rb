@@ -82,10 +82,15 @@ RSpec.describe Item, type: :model do
         @item.valid?
         expect(@item.errors.full_messages).to include "Price is not a number"
       end
-      it "priceが¥300~¥9,999,999でなければ登録できない" do
-        @item.price = "1"
+      it "priceが¥300~でなければ登録できない" do
+        @item.price = 1
         @item.valid?
         expect(@item.errors.full_messages).to include "Price must be greater than or equal to 300"
+      end
+      it "priceが~¥9,999,999でなければ登録できない" do
+        @item.price = 100000000
+        @item.valid?
+        expect(@item.errors.full_messages).to include "Price must be less than or equal to 99999999"
       end
       it 'userが紐付いていないと保存できない' do
         @item.user = nil
@@ -96,6 +101,31 @@ RSpec.describe Item, type: :model do
         @item.image = nil
         @item.valid?
         expect(@item.errors.full_messages).to include"Image can't be blank"
+      end
+      it 'category_idで1が入力されたら登録できない' do
+        @item.category_id = 1
+        @item.valid?
+        expect(@item.errors.full_messages).to include "Category can't be blank"
+      end
+      it 'status_idで1が入力されたら登録できない' do
+        @item.status_id = 1
+        @item.valid?
+        expect(@item.errors.full_messages).to include "Status can't be blank"
+      end
+      it 'burden_of_shipping_charge_idで1が入力されたら登録できない' do
+        @item.burden_of_shipping_charge_id = 1
+        @item.valid?
+        expect(@item.errors.full_messages).to include "Burden of shipping charge can't be blank"
+      end
+      it 'shipping_area_idで1が入力されたら登録できない' do
+        @item.shipping_area_id = 1
+        @item.valid?
+        expect(@item.errors.full_messages).to include "Shipping area can't be blank"
+      end
+      it 'days_to_ship_idで1が入力されたら登録できない' do
+        @item.days_to_ship_id = 1
+        @item.valid?
+        expect(@item.errors.full_messages).to include "Days to ship can't be blank"
       end
     end
   end
