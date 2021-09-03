@@ -6,7 +6,7 @@ class PurchaseRecordShippingAddress
   validates :phone_number, format: { with: /\A\d{10,11}\z/ }
   # validates :phone_number, format: { with: /\A[0-9]+\z/ }, numericality: { greater_than_or_equal_to: 10, less_than_or_equal_to: 11 }
   validates :postal_code, presence: true, format: { with: /\A\d{3}[-]\d{4}\z/ }
-  validates :shipping_area_id, presence: true
+  validates :shipping_area_id, presence: true, numericality: { other_than: 1 , message: "can't be blank"}
   validates :municipality, presence: true
   validates :address, presence: true
  
