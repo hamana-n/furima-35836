@@ -8,14 +8,11 @@ class PurchaseRecordShippingAddress
     validates :token
     validates :item_id
     validates :user_id
-      with_options  format: { with: /\A\d{3}[-]\d{4}\z/ } do
-        validates :postal_code
-      end
-      with_options  numericality: { other_than: 1 , message: "can't be blank"} do
-        validates :shipping_area_id
-      end
+    validates :postal_code , format: { with: /\A\d{3}[-]\d{4}\z/ } 
+    validates :shipping_area_id ,numericality: { other_than: 1 , message: "can't be blank"}
   end
-   validates :phone_number, format: { with: /\A\d{10,11}\z/ }
+
+  validates :phone_number, format: { with: /\A\d{10,11}\z/ }
 
   def save
 
